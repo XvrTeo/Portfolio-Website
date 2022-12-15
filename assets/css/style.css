@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #273746;
+    height: 150px;
+}
+
+.navbar h1 {
+    font-size: 2rem;
+    background-color: #85C1E9;
+    color: #273746;
+    padding: 7px;
+    margin: .5rem;
+}
+
+.navbar-links ul {
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links ul li a {
+    text-decoration-line: underline;
+    text-decoration-thickness: 4px;
+    color: #85C1E9;
+    padding: 1rem;
+    display: block;
+}
+
+/* Add hover so that background color changes */
+.navbar-links li:hover {
+    background-color: #85929E;
+}
+
+/* Add responsive behaviour depending on screen size */
+@media screen and (max-width: 500px) {
+
+    .navbar-links {
+        /* display: none; */
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
+.top {
+    background-image: url(../images/Top.jpg);
+    background-size: 500px;
+    width: 100%;
+    height: 150px;
+}
+
+.info h2 {
+    width: 15%;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+    font-size: 3rem;
+}
+
+.info p {
+    margin-top: 50px;
+    height: 200px;
+}
