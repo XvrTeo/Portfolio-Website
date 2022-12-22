@@ -6,7 +6,7 @@ Based on the user story and acceptance criteria, a portfolio website was created
 
 ### Screenshot:
 
-![Deployed Website](./assets/images/Screenshot.jpg)
+![Deployed Website](./assets/images/gif.gif)
 
 ### Links:
 
