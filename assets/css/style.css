@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #6a81cf;
 }
 
 .navbar {
@@ -32,7 +33,7 @@
 .navbar-links ul li a {
     text-decoration-line: underline;
     text-decoration-thickness: 4px;
-    color: #85C1E9;
+    color: #171f24;
     padding: 1rem;
     display: block;
 }
@@ -57,7 +58,7 @@
 
 }
 
-.top {
+.hero {
     background-image: url(../images/Top.jpg);
     background-size: 500px;
     width: 100%;
