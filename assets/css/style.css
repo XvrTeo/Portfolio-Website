@@ -3,7 +3,19 @@
     padding: 0;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.body {
     background-color: #6a81cf;
+}
+
+#text-color {
+    font-size: 2rem;
+    color: whitesmoke;
+    padding: 8px 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    max-width: 300px;
 }
 
 .navbar {
@@ -40,7 +52,7 @@
 
 /* Add hover so that background color changes */
 .navbar-links li:hover {
-    background-color: #85929E;
+    background-color: #85C1E9;
 }
 
 /* Add responsive behaviour depending on screen size */
