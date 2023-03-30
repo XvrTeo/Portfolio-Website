@@ -67,7 +67,6 @@
         flex-direction: column;
         align-items: flex-start;
     }
-
 }
 
 .hero {
@@ -77,26 +76,30 @@
     height: 200px;
 }
 
-div.gallery {
-    margin: 5px;
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+
+  .gallery {
     border: 10px solid #ccc;
-    display: inline-flex;
-    float: left;
-    width: 200px;
-}
-
-div.gallery:hover {
-    border: 15px solid rgb(37, 14, 170);
-}
-
-div.gallery img {
     width: 100%;
-}
+  }
 
-div.desc {
+  .gallery:hover {
+    border: 15px solid rgb(37, 14, 170);
+  }
+
+  .gallery img {
+    display: block;
+    width: 100%;
+  }
+
+  .desc {
     padding: 5px;
     text-align: center;
-}
+  }
 
 .info h2 {
     width: 15%;
