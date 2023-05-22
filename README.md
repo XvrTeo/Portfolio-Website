@@ -6,9 +6,13 @@ Based on the user story and acceptance criteria, a portfolio website was created
 
 May 2023 - Updated with some content from my React portfolio found here: http://xvrteo.github.io/React-Portfolio
 
-### Screenshot:
+### Screenshots:
+
+OLD:
 
 ![Old Deployed Website](./assets/images/demo1.gif)
+
+May 22, 2023:
 
 ![Current Deployed Website](./assets/images/demo2.gif)
 

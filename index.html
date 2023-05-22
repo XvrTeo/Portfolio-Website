@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Hi and welcome!</title>
+    <title>Xavier Teo - Portfolio</title>
+    <style>
+        .animated {
+            opacity: 0;
+        }
+    </style>
 </head>
 
 <body>
@@ -116,6 +121,15 @@
         </a>
     </section>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script>
+        gsap.from('.hero-content h2', { opacity: 0, y: 50, duration: 1, delay: 0.5 });
+        gsap.from('.about-me img', { opacity: 0, x: -50, duration: 1, delay: 0.5, stagger: 0.2 });
+        gsap.from('.about-me p', { opacity: 0, y: 50, duration: 1, delay: 1 });
+        gsap.from('.gallery', { opacity: 0, y: 50, duration: 1, delay: 0.5, stagger: 0.2 });
+        gsap.from('.contact-list li', { opacity: 0, x: -50, duration: 1, delay: 0.5, stagger: 0.2 });
+        gsap.from('#resume img', { opacity: 0, y: 50, duration: 1, delay: 0.5 });
+    </script>
 </body>
 
 </html>
