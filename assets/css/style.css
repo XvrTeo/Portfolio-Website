@@ -124,6 +124,20 @@ header {
     transition: transform 0.3s ease;
 }
 
+.gallery .desc {
+    padding: 5px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+
+.gallery .desc .description {
+    margin-top: 30px;
+}
+
 .gallery:hover {
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -133,6 +147,19 @@ header {
     background-color: #003262;
     color: #fff;
     font-size: 1.4rem;
+}
+
+.gallery:hover .desc::first-line {
+    font-weight: bold;
+    color: #FDB515;
+}
+
+.gallery:hover .description {
+    display: block;
+}
+
+.description {
+    display: none;
 }
 
 .gallery img {
@@ -172,7 +199,6 @@ header {
     background-color: #FDB515;
 }
 
-
 #resume {
     text-align: center;
     margin-top: 15px;
@@ -193,11 +219,11 @@ header {
     background-color: #FDB515;
 }
 
-.navbar-links li:nth-last-child(1) a {
+.navbar-links li:last-child a {
     font-weight: bold;
     color: #FDB515;
 }
 
-.navbar-links li:nth-last-child(1) a:hover {
+.navbar-links li:last-child a:hover {
     color: #000;
 }
