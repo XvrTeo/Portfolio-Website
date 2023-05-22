@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Xavier Teo's Portfolio Website</title>
+    <title>Hi and welcome!</title>
 </head>
 
-<body class="body">
-    <header class="header">
+<body>
+    <header>
         <nav class="navbar">
             <h1>Xavier Teo</h1>
             <section class="navbar-links">
@@ -18,24 +18,38 @@
                     <li><a href="#work">Work</a></li>
                     <li><a href="#contact-me">Contact Me</a></li>
                     <li><a href="#resume">Resume</a></li>
+                    <li><a href="http://xvrteo.github.io/React-Portfolio">Check out my React-powered Portfolio</a></li>
                 </ul>
             </section>
         </nav>
     </header>
 
     <section class="hero">
-        <h2 id="text-color">Welcome to my portfolio site!</h2>
+        <div class="hero-content">
+            <h2>Welcome to my Portfolio Site</h2>
+        </div>
     </section>
 
     <section id="about" class="info">
         <div class="about-me">
             <h2>About Me</h2>
-            <img src="./assets/images/ProfilePic.jpg" width="420" height="420" alt="Picture of Xavier at home">
-            <p> Welcome and thanks for stopping by! My name is Xavier and I am a junior web developer with a
-                background in sales, account management and customer success across multiple industries and markets.
-                <br><br>
-                This page is a perpetual work in progress so please visit again soon!
-            </p>
+            <img src="./assets/images/ProfilePic.jpg" alt="Picture of Xavier at home">
+            <p>As a seasoned professional with years of experience in sales and
+                customer success within the tech and marketing industries, I've now
+                decided to pursue an exciting career in software development.</p>
+            <p>I am currently in an intensive software development bootcamp and
+                have honed my skills in Node, MySQL,
+                MongoDB, React, jQuery, REST, and GraphQL. Additionally, I gained
+                hands-on experience in web development, databases, and various
+                development tools and frameworks.</p>
+            <p>My prior experience in sales and customer success has instilled in
+                me valuable soft skills such as effective communication,
+                collaboration, and problem-solving. As a developer, I'm able to
+                leverage these skills to create effective and efficient solutions
+                that exceed client expectations. I'm eager to continue learning and
+                growing in the field of software development, and I'm confident that
+                my unique skill set and diverse experience will enable me to make
+                meaningful contributions to any project or team.</p>
         </div>
     </section>
 
@@ -58,7 +72,7 @@
 
             <div class="gallery">
                 <a href="https://xvrteo.github.io/Work-Day-Scheduler/">
-                    <img src="./assets/images/workday.jpg" alt="Work Day Planner">
+                    <img src="./assets/images/workday.gif" alt="Work Day Planner">
                 </a>
                 <div class="desc">Work Day Planner</div>
             </div>
@@ -88,23 +102,18 @@
 
     <section id="contact-me" class="info">
         <h2>Contact Me</h2>
-        <p>
-            <a href="tel:+19254486940">(925) 448-6940</a>
-            <br><br>
-            <a href="mailto:xvrteo@gmail.com">xvrteo@gmail.com</a>
-            <br><br>
-            <a href="https://www.linkedin.com/in/xvrteo/">LinkedIn</a>
-        </p>
+        <ul class="contact-list">
+            <li><a href="tel:+19254486940">Phone</a></li>
+            <li><a href="mailto:xvrteo@gmail.com">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/xvrteo/">LinkedIn</a></li>
+        </ul>
     </section>
 
     <section id="resume" class="info">
-        <h2>Resume</h2>
-        <p>
-            Please click to download<BR>
-            <a href="./assets/images/XavierTeo_Resume.pdf" download>
-                <img src="./assets/images/fouraudiences-resume.png" width="200" height="100" alt="Resume">
-            </a>
-        </p>
+        <h2>Click to download resume</h2>
+        <a href="./assets/images/XavierTeo_Resume.pdf" download>
+            <img src="./assets/images/fouraudiences-resume.png" alt="Resume">
+        </a>
     </section>
 
 </body>

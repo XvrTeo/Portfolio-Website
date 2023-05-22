@@ -4,11 +4,16 @@
 
 Based on the user story and acceptance criteria, a portfolio website was created. This portfolio website is to provide potential employers information about me and the work that I've done. There are placeholders to the individual work links which I will update as the class moves along.
 
+May 2023 - Updated with some content from my React portfolio found here: http://xvrteo.github.io/React-Portfolio
+
 ### Screenshot:
 
-![Deployed Website](./assets/images/gif.gif)
+![Old Deployed Website](./assets/images/demo1.gif)
+
+![Current Deployed Website](./assets/images/demo2.gif)
 
 ### Links:
 
 https://xvrteo.github.io/Week02-Challenge/
+
 https://github.com/XvrTeo/Week02-Challenge

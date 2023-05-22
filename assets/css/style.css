@@ -5,117 +5,185 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.body {
-    background-color: #6a81cf;
+body {
+    background-color: #FDB515;
 }
 
-#text-color {
-    font-size: 2rem;
-    color: whitesmoke;
-    padding: 8px 10px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    max-width: 300px;
+header {
+    background-color: #003262;
+    color: #fff;
+    padding: 10px;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #273746;
-    height: 150px;
 }
 
 .navbar h1 {
     font-size: 2rem;
-    background-color: #85C1E9;
-    color: #273746;
+    background-color: #003262;
     padding: 7px;
-    margin: .5rem;
+    margin: 0.5rem;
 }
 
 .navbar-links ul {
     display: flex;
-}
-
-.navbar-links li {
     list-style: none;
 }
 
-.navbar-links ul li a {
-    text-decoration-line: underline;
-    text-decoration-thickness: 4px;
-    color: #171f24;
-    padding: 1rem;
-    display: block;
+.navbar-links li {
+    margin-left: 10px;
 }
 
-/* Add hover so that background color changes */
+.navbar-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
 .navbar-links li:hover {
     background-color: #85C1E9;
 }
 
-/* Add responsive behaviour depending on screen size */
-@media screen and (max-width: 500px) {
-
-    .navbar-links {
-        /* display: none; */
-        width: 100%;
-    }
-
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+.navbar-links li:hover a {
+    color: #000;
 }
 
 .hero {
     background-image: url(../images/Top.jpg);
-    background-size: 500px;
-    width: 100%;
+    background-size: cover;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content h2 {
+    font-size: 2rem;
+    color: #fff;
+    padding: 8px 10px;
+}
+
+.info {
+    padding: 50px 0;
+    background-color: #f5f5f5;
+    border-top: 10px solid #003262;
+    border-bottom: 10px solid #003262;
+}
+
+.info h2 {
+    font-size: 2rem;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.about-me {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 10px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.about-me img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 15px;
+}
+
+.about-me p {
+    margin-bottom: 15px;
+    text-align: justify;
+    line-height: 1.5;
 }
 
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 10px;
-  }
+}
 
-  .gallery {
+.gallery {
     border: 10px solid #ccc;
     width: 100%;
-  }
+    transition: border-color 0.3s ease;
+}
 
-  .gallery:hover {
-    border: 15px solid rgb(37, 14, 170);
-  }
+.gallery:hover {
+    border-color: #FDB515;
+}
 
-  .gallery img {
+.gallery img {
     display: block;
     width: 100%;
-  }
+}
 
-  .desc {
+.desc {
     padding: 5px;
     text-align: center;
-  }
+}
 
-.info h2 {
-    width: 15%;
-    height: 200px;
-    float: left;
-    margin-left: 15px;
-    font-size: 1.3rem;
+.contact-list {
+    list-style-type: none;
+    margin-top: 15px;
     display: flex;
+    justify-content: center;
 }
 
-.info p {
-    margin-top: 50px;
-    height: 200px;
+.contact-list li {
+    margin: 0 10px;
 }
 
-.info p {
-    margin-top: 50px;
-    height: 200px;
+.contact-list li a {
+    display: inline-block;
+    background-color: #003262;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-list li a:hover {
+    background-color: #FDB515;
+}
+
+
+#resume {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#resume a {
+    display: inline-block;
+    background-color: #003262;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#resume a:hover {
+    background-color: #FDB515;
+}
+
+.navbar-links li:nth-last-child(1) a {
+    font-weight: bold;
+    color: #FDB515;
+}
+
+.navbar-links li:nth-last-child(1) a:hover {
+    color: #000;
 }
