@@ -117,7 +117,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 300px;
     border: 2px solid #ccc;
     padding: 10px;
     border-radius: 5px;
@@ -137,39 +136,9 @@ header {
     margin-top: 30px;
 }
 
-.gallery:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.gallery:hover .desc {
-    background-color: #003262;
-    color: #fff;
-    font-size: 1.4rem;
-}
-
-.gallery:hover .desc::first-line {
-    font-weight: bold;
-    color: #FDB515;
-}
-
-.gallery:hover .description {
-    display: block;
-}
-
-.description {
-    display: none;
-}
-
 .gallery img {
     width: 100%;
     height: auto;
-}
-
-.desc {
-    padding: 5px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .contact-list {
@@ -195,7 +164,7 @@ header {
 }
 
 .contact-list li a:hover {
-    background-color: #FDB515;
+    background-color: #85C1E9;
 }
 
 #resume {
@@ -215,7 +184,7 @@ header {
 }
 
 #resume a:hover {
-    background-color: #FDB515;
+    background-color: #85C1E9;
 }
 
 .navbar-links li:last-child a {
@@ -225,4 +194,42 @@ header {
 
 .navbar-links li:last-child a:hover {
     color: #000;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .navbar h1 {
+        font-size: 1.5rem;
+    }
+
+    .navbar-links ul li a {
+        font-size: 1rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-me p {
+        font-size: 0.9rem;
+    }
+
+    .gallery .desc {
+        font-size: 1rem;
+    }
+
+    .gallery:hover .desc {
+        font-size: 1.2rem;
+    }
+
+    .contact-list li a {
+        font-size: 0.8rem;
+        padding: 8px 16px;
+    }
+
+    #resume a {
+        font-size: 0.8rem;
+        padding: 8px 16px;
+    }
 }
