@@ -6,7 +6,7 @@
   }
 
   body {
-    background-color: #FDB515;
+    background-color: #003262;
   }
 
   header {
@@ -77,8 +77,7 @@
   .info {
     padding: 50px 0;
     background-color: #f5f5f5;
-    border-top: 10px solid #003262;
-    border-bottom: 10px solid #003262;
+    border: 10px solid #003262;
   }
 
   .info h2 {
@@ -123,7 +122,7 @@
     flex-direction: column;
     align-items: center;
     max-width: 300px;
-    border: 2px solid #ccc;
+    border: 10px solid #ccc;
     padding: 10px;
     border-radius: 5px;
     transition: transform 0.3s ease;
