@@ -1,8 +1,8 @@
-# Week02-Challenge
+# Portfolio Website
 
 ## Description:
 
-Based on the user story and acceptance criteria, a portfolio website was created. This portfolio website is to provide potential employers information about me and the work that I've done. There are placeholders to the individual work links which I will update as the class moves along.
+A portfolio website has been created based on the user story and acceptance criteria. The purpose of this website is to showcase my work and provide potential employers with information about me.
 
 May 2023 - Updated with some content from my React portfolio found here: http://xvrteo.github.io/React-Portfolio
 
