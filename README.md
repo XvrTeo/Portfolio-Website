@@ -20,4 +20,4 @@ May 22, 2023:
 
 https://xvrteo.github.io/Week02-Challenge/
 
-https://github.com/XvrTeo/Week02-Challenge
+https://github.com/XvrTeo/Portfolio-Website
