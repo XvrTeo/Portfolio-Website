@@ -18,6 +18,6 @@ May 22, 2023:
 
 ### Links:
 
-https://xvrteo.github.io/Week02-Challenge/
+https://xvrteo.github.io/Portfolio-Website/
 
 https://github.com/XvrTeo/Portfolio-Website
